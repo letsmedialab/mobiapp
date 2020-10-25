@@ -66,7 +66,7 @@
       "showNumber": false,
       "design": "default",
       "showBackGround": true,
-      "radius": 2.0,
+      "radius": 7.0,
       "items": [{
         "category": 20,
         "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/offers/Offers.jpg",
