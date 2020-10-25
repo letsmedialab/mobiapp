@@ -64,13 +64,13 @@
       "isSlider": true,
       "autoPlay": true,
       "showNumber": false,
-      "design": "default",
+      "design": "swiper",
       "showBackGround": true,
       "radius": 7.0,
       "items": [{
         "category": 20,
         "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/offers/Offers.jpg",
-        "padding": 15.0
+        "padding": 5.0
       },
         {
           "category": 20,
