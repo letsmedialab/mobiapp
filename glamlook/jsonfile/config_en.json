@@ -1,1 +1,201 @@
+{
+  "HorizonLayout": [
+    {
+      "layout": "logo",
+      "showMenu": true,
+      "showSearch": true,
+      "showLogo": true
+    },
+    {
+      "layout": "category",
+      "type": "icon",
+      "wrap": false,
+      "size": 1.0,
+      "radius": 50.0,
+      "items": [{
+        "category": 20,
+        "image": "https://letsmedialab.github.io/mobiapp/glamlook/makeover.png",
+        "colors": [
+          "#3CC2BF",
+          "#3CC2BF"
+        ],
+        "originalColor": true
+      },
+        {
+          "category": 25,
+          "image": "https://letsmedialab.github.io/mobiapp/glamlook/MPriya.png",
+          "colors": [
+            "#3E6AB5",
+            "#3E6AB5"
+          ],
+          "originalColor": true
+        },
+        {
+          "category": 57,
+          "image": "https://letsmedialab.github.io/mobiapp/glamlook/ArtCity.png",
+          "colors": [
+            "#53A2CC",
+            "#53A2CC"
+          ],
+          "originalColor": true
+        },
+        {
+          "category": 17,
+          "image": "https://letsmedialab.github.io/mobiapp/glamlook/Products.png",
+          "colors": [
+            "#53688A",
+            "#53688A"
+          ],
+          "originalColor": true
+        },
+        {
+          "category": 24,
+          "image": "https://letsmedialab.github.io/mobiapp/glamlook/Class.png",
+          "colors": [
+            "#43506A",
+            "#43506A"
+          ],
+          "originalColor": true
+        },
+        {
+          "category": 70,
+          "image": "https://letsmedialab.github.io/mobiapp/glamlook/content.png",
+          "colors": [
+            "#12B58C",
+            "#12B58C"
+          ],
+          "originalColor": true
+        }
+      ]
+    },
+    {
+      "layout": "bannerImage",
+      "isSlider": true,
+      "autoPlay": false,
+      "showNumber": false,
+      "design": "default",
+      "showBackGround": true,
+      "radius": 2.0,
+      "items": [{
+        "category": 20,
+        "image": "https://letsmedialab.github.io/mobiapp/glamlook/offers/Offers.jpg",
+        "padding": 15.0
+      },
+        {
+          "category": 20,
+          "image": "https://letsmedialab.github.io/mobiapp/glamlook/banners/Artist20.jpg",
+          "padding": 15.0
+        },
+        {
+          "product": 57,
+          "image": "https://letsmedialab.github.io/mobiapp/glamlook/banners/Artist57.jpg",
+          "padding": 15.0
+        }
+      ]
+    },
+    {
+      "layout": "bannerImage",
+      "items": [{
+        "url": "http://ecom.glamourouslook.com",
+        "image": "https://letsmedialab.github.io/mobiapp/glamlook/banners/nishaThisWeek.jpg",
+        "padding": 5.0
+      }]
+    },
+    {
+      "layout": "bannerImage",
+      "items": [{
+        "category": 20,
+        "image": "https://letsmedialab.github.io/mobiapp/glamlook/banners/Artist20.jpg",
+        "padding": 5.0
+      },
+        {
+          "category": 24,
+          "image": "https://letsmedialab.github.io/mobiapp/glamlook/banners/Artist57.jpg",
+          "padding": 5.0,
+          "featured": true
+        }
+      ]
+    },
+    {
+      "name": "Recent View",
+      "layout": "recentView"
+    },
+    {
+      "name": "Makeup By Nisha",
+      "image": "",
+      "layout": "threeColumn",
+      "category": 20,
+      "isSnapping": true
+    },
+    {
+      "name": "GlamourousLook Studio",
+      "image": "",
+      "layout": "twoColumn",
+      "category": 57,
+      "isSnapping": true
+    },
 
+    {
+      "name": "Blog & Announcements",
+      "layout": "blog"
+    }
+
+  ],
+  "Setting": {
+    "MainColor": "#3FC1BE",
+    "ProductListLayout": "list",
+    "StickyHeader": false,
+    "ShowChat": true
+  },
+  "TabBar": [{
+    "layout": "home",
+    "icon": "assets/icons/tabs/icon-home.png"
+  },
+    {
+      "layout": "category",
+      "categoryLayout": "card",
+      "icon": "assets/icons/tabs/icon-category.png"
+    },
+    {
+      "layout": "search",
+      "icon": "assets/icons/tabs/icon-search.png"
+    },
+    {
+      "layout": "cart",
+      "icon": "assets/icons/tabs/icon-cart2.png"
+    },
+    {
+      "layout": "profile",
+      "icon": "assets/icons/tabs/icon-user.png",
+      "showChat": true
+    }
+  ],
+  "searchSuggestion": [
+    "bridal",
+    "engagement",
+    "party look",
+    "training"
+  ],
+  "OnBoarding": {
+    "data": [
+      {
+        "title": "Welcome to GlamourousLook",
+        "image": "assets/images/fogg-delivery-1.png",
+        "desc": "GlamourousLook is on the way to serve you. ",
+        "background": "#FFF3F2"
+      },
+      {
+        "title": "Connect Surrounding World",
+        "image": "assets/images/fogg-uploading-1.png",
+        "desc": "See all things happening around you just by a click in your phone. Fast, convenient and clean.",
+        "background": "#F2FFFC"
+      },
+      {
+        "title": "Let's Get Started",
+        "image": "fogg-order-completed.png",
+        "desc": "Waiting no more, let's see what we get!",
+        "background": "#F9F2FF"
+      }
+    ]
+  }
+}
