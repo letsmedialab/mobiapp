@@ -16,13 +16,22 @@
         "category": 20,
         "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/MPriya.png",
         "colors": [
-          "#3E6AB5",
-          "#3E6AB5"
+          "#3CC2BF",
+          "#3CC2BF"
         ],
         "originalColor": true
       },
         {
-          "category": 57,
+          "category": 18,
+          "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/MPriya.png",
+          "colors": [
+            "#3E6AB5",
+            "#3E6AB5"
+          ],
+          "originalColor": true
+        },
+        {
+          "category": 25,
           "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/ArtCity.png",
           "colors": [
             "#53A2CC",
@@ -31,7 +40,7 @@
           "originalColor": true
         },
         {
-          "category": 17,
+          "category": 57,
           "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/Products.png",
           "colors": [
             "#53688A",
@@ -40,7 +49,7 @@
           "originalColor": true
         },
         {
-          "category": 24,
+          "category": 17,
           "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/Class.png",
           "colors": [
             "#43506A",
@@ -49,7 +58,7 @@
           "originalColor": true
         },
         {
-          "category": 70,
+          "category": 24,
           "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/content.png",
           "colors": [
             "#12B58C",
@@ -64,21 +73,21 @@
       "isSlider": true,
       "autoPlay": true,
       "showNumber": false,
-      "design": "swiper",
+      "design": "default",
       "showBackGround": true,
-      "radius": 7.0,
+      "radius": 2.0,
       "items": [{
         "category": 20,
         "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/offers/Offers.jpg",
-        "padding": 5.0
+        "padding": 15.0
       },
         {
-          "category": 20,
+          "category": 18,
           "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/banners/Artist20.jpg",
           "padding": 15.0
         },
         {
-          "product": 57,
+          "product": 33,
           "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/banners/Artist57.jpg",
           "padding": 15.0
         }
@@ -87,7 +96,7 @@
     {
       "layout": "bannerImage",
       "items": [{
-        "url": "http://ecom.glamourouslook.com",
+        "url": "https://shop.glamourouslook.com",
         "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/banners/nishaThisWeek.jpg",
         "padding": 5.0
       }]
@@ -95,12 +104,12 @@
     {
       "layout": "bannerImage",
       "items": [{
-        "category": 20,
+        "category": 18,
         "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/banners/Artist20.jpg",
         "padding": 5.0
       },
         {
-          "category": 24,
+          "category": 33,
           "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/banners/Artist57.jpg",
           "padding": 5.0,
           "featured": true
@@ -112,14 +121,14 @@
       "layout": "recentView"
     },
     {
-      "name": "Makeup By Nisha",
+      "name": "Artists",
       "image": "",
       "layout": "threeColumn",
       "category": 20,
       "isSnapping": true
     },
     {
-      "name": "GlamourousLook Studio",
+      "name": "Work Details",
       "image": "",
       "layout": "twoColumn",
       "category": 57,
@@ -127,10 +136,15 @@
     },
 
     {
-      "name": "Blog & Announcements",
+      "name": "Our Blog Posts",
       "layout": "blog"
+    },
+    {
+      "name": "New Collections",
+      "layout": "staggered",
+      "limit": 20,
+      "category": 20
     }
-
   ],
   "Setting": {
     "MainColor": "#3FC1BE",
@@ -163,28 +177,28 @@
   ],
   "searchSuggestion": [
     "bridal",
-    "engagement",
-    "party look",
-    "training"
+    "makeup",
+    "artists",
+    "ma"
   ],
   "OnBoarding": {
     "data": [
       {
         "title": "Welcome to GlamourousLook",
         "image": "assets/images/fogg-delivery-1.png",
-        "desc": "GlamourousLook is on the way to serve you. ",
+        "desc": "GlamourousLook, India's first and only platform for makeup artists. ",
         "background": "#FFF3F2"
       },
       {
-        "title": "Connect Surrounding World",
+        "title": "Now wear your confidence",
         "image": "assets/images/fogg-uploading-1.png",
-        "desc": "See all things happening around you just by a click in your phone. Fast, convenient and clean.",
+        "desc": "We help you discover a new You.",
         "background": "#F2FFFC"
       },
       {
         "title": "Let's Get Started",
         "image": "fogg-order-completed.png",
-        "desc": "Waiting no more, let's see what we get!",
+        "desc": "Waiting no more, let's see what we have for you!",
         "background": "#F9F2FF"
       }
     ]
