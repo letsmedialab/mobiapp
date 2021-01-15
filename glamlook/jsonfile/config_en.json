@@ -11,7 +11,7 @@
       "type": "icon",
       "wrap": false,
       "size": 1.0,
-      "radius": 50.0,
+      "radius": 40.0,
       "items": [{
         "category": 20,
         "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/MPriya.png",
@@ -23,7 +23,7 @@
       },
         {
           "category": 18,
-          "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/MPriya.png",
+          "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/ArtCity.png",
           "colors": [
             "#3E6AB5",
             "#3E6AB5"
@@ -32,7 +32,7 @@
         },
         {
           "category": 25,
-          "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/ArtCity.png",
+          "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/Products.png",
           "colors": [
             "#53A2CC",
             "#53A2CC"
@@ -41,7 +41,7 @@
         },
         {
           "category": 57,
-          "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/Products.png",
+          "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/Class.png",
           "colors": [
             "#53688A",
             "#53688A"
@@ -50,19 +50,10 @@
         },
         {
           "category": 17,
-          "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/Class.png",
+          "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/content.png",
           "colors": [
             "#43506A",
             "#43506A"
-          ],
-          "originalColor": true
-        },
-        {
-          "category": 24,
-          "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/content.png",
-          "colors": [
-            "#12B58C",
-            "#12B58C"
           ],
           "originalColor": true
         }
@@ -87,7 +78,7 @@
           "padding": 15.0
         },
         {
-          "product": 33,
+          "product": 17,
           "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/banners/Artist57.jpg",
           "padding": 15.0
         }
@@ -109,7 +100,7 @@
         "padding": 5.0
       },
         {
-          "category": 33,
+          "category": 20,
           "image": "https://raw.githubusercontent.com/letsmedialab/mobiapp/main/glamlook/banners/Artist57.jpg",
           "padding": 5.0,
           "featured": true
@@ -124,32 +115,26 @@
       "name": "Artists",
       "image": "",
       "layout": "threeColumn",
+      "category": 67,
+      "isSnapping": true
+    },
+    {
+      "name": "Most Liked",
+      "image": "",
+      "layout": "twoColumn",
       "category": 20,
       "isSnapping": true
     },
-    {
-      "name": "Work Details",
-      "image": "",
-      "layout": "twoColumn",
-      "category": 57,
-      "isSnapping": true
-    },
 
-    {
-      "name": "Our Blog Posts",
-      "layout": "blog"
-    },
-    {
-      "name": "New Collections",
-      "layout": "staggered",
-      "limit": 20,
-      "category": 20
-    }
+//    {
+//      "name": "News Desk",
+//      "layout": "blog"
+//    }
   ],
   "Setting": {
-    "MainColor": "#3FC1BE",
+    "MainColor": "#d497d2",
     "ProductListLayout": "list",
-    "StickyHeader": false,
+    "StickyHeader": true,
     "ShowChat": true
   },
   "TabBar": [{
@@ -179,7 +164,7 @@
     "bridal",
     "makeup",
     "artists",
-    "ma"
+    "nisha"
   ],
   "OnBoarding": {
     "data": [
